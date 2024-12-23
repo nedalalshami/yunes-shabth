@@ -1,0 +1,175 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    /* position: absolute; */
+    top:-5px;
+    font-size:50px ;
+text-transform: uppercase;
+font-family:cursive;
+color: transparent;
+color: rgb(from green 100 250 44); 
+animation: color 2s linear infinite;
+}@keyframes color{
+    to{
+   
+       filter: hue-rotate(360deg);
+    }
+}
+p{
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+}
+.container{
+min-height: 10vh;
+min-width:337px;
+background:transparent;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+}
+.container>div{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    box-shadow:0 0 10px var(--clr),
+    0 0 40px var(--clr) ,
+    -4px 0 80px var(--clr);
+    font-size: 40px;
+    text-align: center;
+border-radius: 5px;
+overflow: hidden;
+margin: 2px;
+font-weight: 600;
+color: var(--clr);
+}
+.container>div:hover{
+    background: var(--clr) url(mohamed.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:black;
+    font-size: 80px;
+}
+#imm0{
+margin-top: -500px;
+
+}
+#imgpar{
+   max-width: 100px;
+   height: 50%;
+   border-radius: 50%;
+   left: 150px;
+   box-shadow: 0 0 10px ;
+   /* top: 10px; */
+}
+.par{
+    min-width: 100%;
+    min-height: 100px;
+    background: linear-gradient(red,black);
+top: -5px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+  
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container>div{
+        position: relative;
+        width: 80px;
+        height: 80px;
+    }
+    .container{
+        min-height: 10vh;
+        min-width:337px;
+        background:transparent;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        top: 130px;
+        }
+        #imm0{
+            margin-top: -700px;
+            
+            }
+            p{
+                position: absolute;
+                top:60px;
+                font-size: 30px;
+                color: aliceblue;
+            }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container>div{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        font-size: 70px;
+    }
+    .container{
+        min-height: 100vh;
+        min-width:337px;
+        background: transparent;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        top: 150px;
+        }
+        #imm0{
+            margin-top: -1000px;
+            
+            }
+            p{
+                position: absolute;
+                top:60px;
+                font-size: 30px;
+                color: aliceblue;
+                left: 50px;
+            }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .container>div{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        font-size: 70px;
+    }
+    .container{
+        min-height: 40vh;
+        min-width:337px;
+        background: transparent;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        top: 150px;
+        }
+        #imm0{
+            margin-top: -700px;
+        
+            }
+            p{
+                position: absolute;
+                top:20px;
+                font-size: 50px;
+                color: aliceblue;
+            }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){ }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> العربية مع يونس شبطة   </title>
+  <meta name="keywords" content="تعلم الحروف العربية, تعلم الأحرف للأطفال, يونس شبطة,تطبيق أطفال ">
+  <link rel="icon" href="m1 (2).png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="par"><img id="imgpar" src="">
+  <h1>الحـروف العربـية</h1>
+</div>
+<p>اضغط على الأحرف بالترتيب  </p>
+<div class="container">
+
+  <div class="div0" style="--clr:rgb(115, 115, 193);" onclick="harf0()">أ</div>
+  <div  class="div1" style="--clr:red;"  onclick="harf1()">ب</div>
+  <div  class="div2" style="--clr:yellow;" onclick="harf2()">ت</div>
+  <div  class="div3" style="--clr:green;"  onclick="harf3()">ث</div>
+  <div  class="div4" style="--clr:orange;"  onclick="harf4()">ج</div>
+  <div  class="div5" style="--clr:rgb(239, 96, 96);"  onclick="harf5()">ح</div>
+  <div  class="div6" style="--clr:chocolate;"  onclick="harf6()">خ</div>
+  <div  class="div7" style="--clr:rgb(229, 27, 222);"  onclick="harf7()">د</div>
+  <div  class="div8" style="--clr:rgb(222, 128, 206);"  onclick="harf8()">ذ</div>
+  <div  class="div9" style="--clr:rgb(14, 219, 92);"  onclick="harf9()">ر</div>
+  <div  class="div10" style="--clr:rgb(188, 241, 63);"  onclick="harf10()">ز</div>
+  <div  class="div11" style="--clr:rgb(64, 19, 61);"  onclick="harf11()">س</div>
+  <div  class="div12" style="--clr:rgb(207, 168, 10);"  onclick="harf12()">ش</div>
+  <div  class="div13" style="--clr:rgb(73, 59, 59);"  onclick="harf13()">ص</div>
+  <div  class="div14" style="--clr:red;" onclick="harf14()">ض</div>
+  <div  class="div15" style="--clr:rgb(31, 189, 217);" onclick="harf15()">ط</div>
+  <div  class="div16" style="--clr:rgb(93, 170, 200);"  onclick="harf16()">ظ</div>
+  <div  class="div17" style="--clr:rgb(42, 143, 106);" onclick="harf17()">ع</div>
+  <div  class="div18" style="--clr:rgb(3, 55, 53);"  onclick="harf18()">غ</div>
+  <div  class="div19" style="--clr:rgb(233, 168, 168);"  onclick="harf19()">ف</div>
+  <div  class="div20" style="--clr:rgb(5, 7, 86);"  onclick="harf20()">ق</div>
+  <div  class="div21" style="--clr:rgba(177, 172, 21, 0.734);"  onclick="harf21()">ك</div>
+  <div  class="div22" style="--clr:rgba(132, 12, 106, 0.673);"  onclick="harf22()">ل</div>
+  <div  class="div23" style="--clr:rgb(165, 61, 158);" onclick="harf23()">م</div>
+  <div class="div24" style="--clr:rgb(186, 215, 19);" onclick="harf24()">ن</div>
+  <div class="div25" style="--clr:blue" onclick="harf25()">هـ</div>
+  <div class="div26" style="--clr:rgb(138, 138, 240);"  onclick="harf26()">و</div>
+  <div class="div27" style="--clr:rgb(147, 10, 10);" onclick="harf27()">ي</div>
+  <div class="div28" style="--clr:rgba(255, 0, 0, 0.438);" onclick="harf28()">End</div>
+
+<img id="imm0" src="">
+
+
+
+<script>
+
+let div0 = document.querySelector(".div0")
+const images = ['m1 (1).png ','m1 (2).png','m1 (3).png','m1 (4).png','m1.jpg','m2.png'];
+
+function harf0(){
+div0.innerHTML='  <audio id="au0" src="أأ.m4a"controls autoplay></audio>'
+//div0.innerHTML='<video id="au0"src="a.mp4" controls autoplay></video>'
+  au0.style.opacity= 0
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag)
+imgpar.src=indeximag
+}
+///////////////////////////
+let div1 = document.querySelector(".div1")
+function harf1(){
+//div1.innerHTML='<video id="au1"src="b.mp4" controls autoplay></video>'
+div1.innerHTML='<audio id="au1" src="ب.m4a"controls autoplay></audio>'
+au1.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag)
+imgpar.src=indeximag
+}
+///////////////////////////
+let div2 = document.querySelector(".div2")
+function harf2(){
+  //div2.innerHTML='<video id="au2"src="c.mp4" controls autoplay></video>'
+  div2.innerHTML='  <audio id="au2" src="ت.m4a"controls autoplay></audio>'
+  au2.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div3 = document.querySelector(".div3")
+function harf3(){
+// div3.innerHTML='<video id="au3"src="ç.mp4" controls autoplay></video>'
+div3.innerHTML='  <audio id="au3" src="ث.m4a"controls autoplay></audio>'
+au3.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div4 = document.querySelector(".div4")
+function harf4(){
+ // div4.innerHTML='<video id="au4"src="d.mp4" controls autoplay></video>'
+ div4.innerHTML='  <audio id="au4" src="ج.m4a"controls autoplay></audio>'
+
+ au4.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div5 = document.querySelector(".div5")
+function harf5(){
+ //div5.innerHTML='<video id="au5"src="e.mp4" controls autoplay></video>'
+ div5.innerHTML='  <audio id="au5" src="ح.m4a"controls autoplay></audio>'
+ au5.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div6 = document.querySelector(".div6")
+function harf6(){
+// div6.innerHTML='<video id="au6"src="f.mp4" controls autoplay></video>'
+div6.innerHTML='  <audio id="au6" src="خ.m4a"controls autoplay></audio>'
+au6.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div7 = document.querySelector(".div7")
+function harf7(){
+ // div7.innerHTML='<video id="au7"src="g.mp4" controls autoplay></video>'
+ div7.innerHTML='  <audio id="au7" src="د.m4a"controls autoplay></audio>'
+ au7.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div8 = document.querySelector(".div8")
+function harf8(){
+  //div8.innerHTML='  <audio id="au8" src="صوت نهاية الفيديو.m4a"controls autoplay></audio>'
+  div8.innerHTML='  <audio id="au8" src="ذ.m4a"controls autoplay></audio>'
+  au8.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div9 = document.querySelector(".div9")
+function harf9(){
+  div9.innerHTML='  <audio id="au9" src="ر.m4a"controls autoplay></audio>'
+au9.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div10 = document.querySelector(".div10")
+function harf10(){
+  div10.innerHTML='  <audio id="au10" src="ز.m4a"controls autoplay></audio>'
+au10.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div11 = document.querySelector(".div11")
+function harf11(){
+  div11.innerHTML='  <audio id="au11" src="س.m4a"controls autoplay></audio>'
+au11.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div12 = document.querySelector(".div12")
+function harf12(){
+  div12.innerHTML='  <audio id="au12" src="ش.m4a"controls autoplay></audio>'
+au12.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div13 = document.querySelector(".div13")
+function harf13(){
+  div13.innerHTML='  <audio id="au13" src="ص.m4a"controls autoplay></audio>'
+au13.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div14 = document.querySelector(".div14")
+function harf14(){
+  div14.innerHTML='  <audio id="au14" src="ض.m4a"controls autoplay></audio>'
+au14.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div15 = document.querySelector(".div15")
+function harf15(){
+  div15.innerHTML='  <audio id="au15" src="ط.m4a"controls autoplay></audio>'
+au15.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div16 = document.querySelector(".div16")
+function harf16(){
+  div16.innerHTML='  <audio id="au16" src="ظ.m4a"controls autoplay></audio>'
+au16.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div17 = document.querySelector(".div17")
+function harf17(){
+  div17.innerHTML='  <audio id="au17" src="ع.m4a"controls autoplay></audio>'
+au17.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div18 = document.querySelector(".div18")
+function harf18(){
+  div18.innerHTML='  <audio id="au18" src="غ.m4a"controls autoplay></audio>'
+au18.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div19 = document.querySelector(".div19")
+function harf19(){
+  div19.innerHTML='  <audio id="au19" src="ف.m4a"controls autoplay></audio>'
+au19.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div20 = document.querySelector(".div20")
+function harf20(){
+  div20.innerHTML='  <audio id="au20" src="ق.m4a"controls autoplay></audio>'
+au20.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div21 = document.querySelector(".div21")
+function harf21(){
+  div21.innerHTML='  <audio id="au21" src="ك.m4a"controls autoplay></audio>'
+au21.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+
+///////////////////////////
+let div22 = document.querySelector(".div22")
+function harf22(){
+  div22.innerHTML='  <audio id="au22" src="ل.m4a"controls autoplay></audio>'
+au22.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div23 = document.querySelector(".div23")
+function harf23(){
+  div23.innerHTML='  <audio id="au23" src="م.m4a"controls autoplay></audio>'
+au23.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div24 = document.querySelector(".div24")
+function harf24(){
+  div24.innerHTML='  <audio id="au24" src="ن.m4a"controls autoplay></audio>'
+au24.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div25 = document.querySelector(".div25")
+function harf25(){
+  div25.innerHTML='  <audio id="au25" src="ه.m4a"controls autoplay></audio>'
+au25.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div26 = document.querySelector(".div26")
+function harf26(){
+  div26.innerHTML='  <audio id="au26" src="و.m4a"controls autoplay></audio>'
+au26.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div27= document.querySelector(".div27")
+function harf27(){
+  div27.innerHTML='  <audio id="au27" src="ي.m4a"controls autoplay></audio>'
+au27.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////////////
+let div28= document.querySelector(".div28")
+function harf28(){
+  div28.innerHTML='  <audio id="au28" src="end.m4a"controls autoplay></audio>'
+au28.style.opacity= 0 
+const bac= Math.floor(Math.random() * images.length)
+const indeximag =images[bac]
+imm0.src=(indeximag);imgpar.src=indeximag
+}
+///////////////////
+
+</script>
+
+</body>
+</html>
